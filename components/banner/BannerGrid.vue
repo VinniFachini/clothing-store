@@ -1,17 +1,15 @@
 <template>
     <div class="container banner-grid-wrapper">
-        <img class="first-image" :src="first" :alt="title">
-        <img class="second-image" :src="second" :alt="title">
-        <img class="third-image" :src="third" :alt="title">
+        <figure v-for="item in banners" :key="item.title">
+            <img :src="item.link" :alt="item.title">
+        </figure>
     </div>
 </template>
 
 <script>
 export default {
     props: {
-        first: String,
-        second: String,
-        third: String,
+        banners: Object,
         title: String,
     }
 }
@@ -23,14 +21,19 @@ export default {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding-block: 40px;
-    .first-image {
-        grid-column: 1 / 3;
-        grid-row: 1 / 3;
-        width: 100%;
-        height: 100%;
-    }
-    .second-image, .third-image {
+    figure {
         grid-column: 3 / 5;
+        width: 100%;
+        img {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        &:first-child {
+            grid-column: 1 / 3 !important;
+            grid-row: 1 / 3;
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 </style>

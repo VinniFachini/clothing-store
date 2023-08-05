@@ -4,13 +4,13 @@
     <ul class="products-container">
       <Carousel v-bind="settings">
         <Slide v-for="slide in products" :key="slide.id">
-        <Product
-          :title="slide.name"
-          :oldPrice="slide.oldPrice"
-          :newPrice="slide.newPrice"
-          :images="slide.images"
-          :sku="slide.sku"
-        />
+          <Product
+            :title="slide.name"
+            :oldPrice="slide.oldPrice"
+            :newPrice="slide.newPrice"
+            :images="slide.images"
+            :sku="slide.sku"
+          />
         </Slide>
       </Carousel>
     </ul>
@@ -19,7 +19,7 @@
 
 <style lang="scss" scoped>
 .showcase {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
   &__title {
     font-size: 2rem;
     text-transform: uppercase;
@@ -39,12 +39,12 @@ export default {
   },
   data() {
     return {
-        settings: {
-            itemsToShow: 4,
-            snapAlign: 'start',
-            wrapAround: true
-        },
-    }
-  }
+      settings: {
+        itemsToShow: 4,
+        snapAlign: "start",
+        wrapAround: true,
+      },
+    };
+  },
 };
 </script>

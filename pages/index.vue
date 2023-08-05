@@ -3,40 +3,55 @@
     <Title>Clothing Store Online - Your place to online purchases</Title>
     <Meta name="description" content="An Online Clothing Store" />
   </Head>
-  <BannerHome />
+  <BannerHome :banners="bannerHomeItems" />
   <BannerAnnouncements />
-  <BannerGrid
-    first="https://via.placeholder.com/960x960"
-    second="https://via.placeholder.com/800x400"
-    third="https://via.placeholder.com/800x400"
-    fourth="https://via.placeholder.com/800x400"
-    title="Banner Grid"
-  />
-  <ProductShowcase title="Best Sellers" :products="products"/>
+  <BannerGrid :banners="bannerGridItems" title="Banner Grid" />
+  <ProductShowcase title="Best Sellers" :products="products" />
+  <ProductShowcase title="Snickers" :products="products" />
+  <BannerFull  :banners="bannerFullItems" title="They wear us" />
 </template>
 
 
 <script>
 export default {
-  setup() {
-    
-  },
+  setup() {},
   data() {
     return {
-      products: []
-    }
+      products: [],
+      bannerHomeItems: [],
+      bannerGridItems: [],
+      bannerFullItems: []
+    };
   },
   mounted() {
-    this.fetchProducts('../api.json')
+    this.fetchProducts("../api.json");
+    this.fetchBannerHome("../api.json");
+    this.fetchBannerGrid("../api.json");
+    this.fetchBannerFull("../api.json");
   },
   methods: {
-    fetchProducts: async function(url) {
-      const info = await fetch(url)
-      const infoJson = await info.json()
-      this.products = infoJson.products
-    }
-  }
-}
+    fetchProducts: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.products = infoJson.products;
+    },
+    fetchBannerHome: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.bannerHomeItems = infoJson.banners.bannerHome;
+    },
+    fetchBannerGrid: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.bannerGridItems = infoJson.banners.bannerGrid;
+    },
+    fetchBannerFull: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.bannerFullItems = infoJson.banners.bannerFull;
+    },
+  },
+};
 </script>
 
 

@@ -41,6 +41,9 @@ export default {
   display: flex;
   padding-block: 40px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  @media screen and (max-width: 1100px) {
+    flex-wrap: wrap;
+  }
 }
 </style>
