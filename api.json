@@ -1,0 +1,782 @@
+{
+    "products": [
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "1",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "2",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "3",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "4",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "5",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "6",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "7",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "8",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "9",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "10",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "11",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "12",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "13",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Incredible Granite Fish",
+            "sku": "incredible-granite-fish",
+            "material": "Metal",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 400.00,
+            "newPrice": 339.99,
+            "brand": "MetalMask",
+            "images": {
+                "main": "https://loremflickr.com/400/600/shirt",
+                "thumbs": [
+                    "https://loremflickr.com/400/600/shirt?random=1",
+                    "https://loremflickr.com/400/600/shirt?random=2",
+                    "https://loremflickr.com/400/600/shirt?random=3",
+                    "https://loremflickr.com/400/600/shirt?random=4",
+                    "https://loremflickr.com/400/600/shirt?random=5",
+                    "https://loremflickr.com/400/600/shirt?random=6"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "14",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        }
+    ],
+    "banners": {
+        "bannerHome": {
+            "first": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/1920x630"
+            },
+            "second": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/1920x630"
+            },
+            "third": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/1920x630"
+            },
+            "fourth": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/1920x630"
+            }
+        },
+        "bannerGrid": {
+            "first": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/960x978"
+            },
+            "second": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/796x396"
+            },
+            "third": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/796x396"
+            }
+        },
+        "bannerFull": {
+            "first": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "second": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "third": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "fourth": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "fifth": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "sixth": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            },
+            "seventh": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/260x325"
+            }
+        },
+        "bannerAboutUs": {
+            "first": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/768x500"
+            },
+            "second": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/394x500"
+            },
+            "third": {
+                "bannerTitle": "This is a title",
+                "link": "https://via.placeholder.com/394x500"
+            }
+        }
+    },
+    "categories": [
+        {
+            "name": "Geek",
+            "id": "1"
+        },
+        {
+            "name": "Games",
+            "id": "2"
+        },
+        {
+            "name": "Nerd",
+            "id": "3"
+        }
+    ]
+}
