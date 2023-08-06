@@ -34,7 +34,7 @@ export default {
   }
   &__title {
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 700;
   }
   &__text {
     color: #737373;
