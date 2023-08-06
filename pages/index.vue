@@ -9,7 +9,10 @@
   <ProductShowcase title="Best Sellers" :products="products" />
   <ProductShowcase title="Snickers" :products="products" />
   <BannerFull  :banners="bannerFullItems" title="They wear us" />
+  <ProductShowcase title="Accessories" :products="products" />
+  <ProductShowcase title="Shirts" :products="products" />
   <Newsletter />
+  <BannerAboutUs :banners="bannerAboutUs"/>
 </template>
 
 
@@ -21,7 +24,8 @@ export default {
       products: [],
       bannerHomeItems: [],
       bannerGridItems: [],
-      bannerFullItems: []
+      bannerFullItems: [],
+      bannerAboutUs: []
     };
   },
   mounted() {
@@ -29,6 +33,7 @@ export default {
     this.fetchBannerHome("../api.json");
     this.fetchBannerGrid("../api.json");
     this.fetchBannerFull("../api.json");
+    this.fetchBannerAboutUs("../api.json")
   },
   methods: {
     fetchProducts: async function (url) {
@@ -50,6 +55,11 @@ export default {
       const info = await fetch(url);
       const infoJson = await info.json();
       this.bannerFullItems = infoJson.banners.bannerFull;
+    },
+    fetchBannerAboutUs: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.bannerAboutUs = infoJson.banners.bannerAboutUs;
     },
   },
 };
