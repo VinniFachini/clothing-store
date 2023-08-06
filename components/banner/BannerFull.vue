@@ -26,6 +26,7 @@ export default {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .title-container {
     .title {
