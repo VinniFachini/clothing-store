@@ -211,7 +211,7 @@
           a {
             cursor: pointer;
             color: black;
-            font-weight: 500;
+            font-weight: 700;
             &:hover {
               color: #8720ac;
             }

@@ -9,6 +9,7 @@
   <ProductShowcase title="Best Sellers" :products="products" />
   <ProductShowcase title="Snickers" :products="products" />
   <BannerFull  :banners="bannerFullItems" title="They wear us" />
+  <Newsletter />
 </template>
 
 
