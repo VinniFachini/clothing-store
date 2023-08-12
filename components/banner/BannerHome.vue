@@ -27,6 +27,10 @@ export default {
   width: 100vw;
   img {
     width: 100%;
+    @media screen and (max-width: 992px) {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
   }
 }
 .carousel__pagination {

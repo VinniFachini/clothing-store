@@ -35,5 +35,9 @@ export default {
             height: 100%;
         }
     }
+    @media screen and (max-width: 992px) {
+        display: flex !important;
+        flex-direction: column;
+    }
 }
 </style>

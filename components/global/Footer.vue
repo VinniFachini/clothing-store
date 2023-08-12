@@ -108,6 +108,16 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding-bottom: 40px;
+    @media screen and (max-width: 992px) {
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 425px) {
+      grid-template-columns: 1fr;
+    }
     .footer-article {
       .footer-article__title {
         font-size: 1.4rem;

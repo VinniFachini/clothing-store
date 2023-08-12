@@ -2,7 +2,7 @@
   <div class="container showcase">
     <h2 class="showcase__title">{{ title }}</h2>
     <ul class="products-container">
-      <Carousel v-bind="settings">
+      <Carousel v-bind="settings" :breakpoints="breakpoints">
         <Slide v-for="slide in products" :key="slide.id">
           <Product
             :title="slide.name"
@@ -45,10 +45,21 @@ export default {
   data() {
     return {
       settings: {
-        itemsToShow: 4,
+        itemsToShow: 1,
         snapAlign: "start",
         wrapAround: true,
       },
+      breakpoints: {
+        525: {
+          itemsToShow: 2
+        },
+        768: {
+          itemsToShow: 3
+        },
+        1280: {
+          itemsToShow: 4
+        }
+      }
     };
   },
 };
