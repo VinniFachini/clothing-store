@@ -18,6 +18,11 @@
 </template>
 
 <style lang="scss" scoped>
+
+.carousel__slide{
+  display: flex;
+  align-items: flex-start;
+}
 .showcase {
   margin-bottom: 40px;
   &__title {

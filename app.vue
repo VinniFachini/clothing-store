@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
   height: 100vh;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 .container {
   width: 100%;
   max-width: 1600px;

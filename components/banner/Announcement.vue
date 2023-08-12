@@ -39,6 +39,7 @@ export default {
   &__text {
     color: #737373;
     text-align: center;
+    min-height: 48px;
   }
 }
 </style>

@@ -23,7 +23,7 @@
     <Announcement
       imageSrc="../../assets/images/credit-card.png"
       title="Credit Card"
-      text="You can pay with any credit Card!"
+      text="You can pay with any credit Card! Check our Policy"
     />
   </div>
 </template>

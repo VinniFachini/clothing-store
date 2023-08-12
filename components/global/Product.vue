@@ -10,7 +10,7 @@
       {{ title }}
     </figcaption>
     <div class="price">
-      <div class="old-price">
+      <div v-if="oldPrice" class="old-price">
         <span class="old-price__value">{{ oldPriceFormated }}</span>
       </div>
       <div class="new-price">
