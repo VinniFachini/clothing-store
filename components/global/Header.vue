@@ -6,6 +6,133 @@
       >
     </div>
     <div class="second-bar container">
+      <div class="mobile-nav">
+        <span class="mobile-nav__icon" @click="toggleMobileMenu"></span>
+        <div class="mobile-nav__container" :class="{ active: menuMobile }">
+          <div class="mobile-nav__header">
+            <span
+              class="mobile-nav__icon active"
+              @click="toggleMobileMenu"
+            ></span>
+            <div class="mobile-nav__logo">
+              <NuxtLink to="/">
+                <h1>Clothing Store</h1>
+              </NuxtLink>
+            </div>
+          </div>
+          <form class="search-mobile" action="search" method="get">
+            <input
+              placeholder="Search on Clothing Store"
+              type="text"
+              name="query"
+              id="query"
+            />
+            <button type="submit">
+              <span class="search-icon"></span>
+            </button>
+          </form>
+          <nav class="menu-mobile">
+            <ul class="menu-mobile__container">
+              <li class="menu-mobile__item"  @click="toggleMenuMobileExtendedBestSellers" :class="{ active: menuMobileExtendedBestSellers }">
+                <NuxtLink to="/">Best Sellers</NuxtLink>
+                <ul class="menu-mobile__item__subitem-wrapper">
+                  <h3>Best Sellers</h3>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Best Sellers</NuxtLink>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-mobile__item">
+                <NuxtLink to="/">Tênis</NuxtLink>
+              </li>
+              <li class="menu-mobile__item">
+                <NuxtLink to="/">Acessórios</NuxtLink>
+              </li>
+              <li class="menu-mobile__item" @click="toggleMenuMobileExtendedOutlet" :class="{ active: menuMobileExtendedOutlet }">
+                <NuxtLink to="/">Outlet</NuxtLink>
+                <ul class="menu-mobile__item__subitem-wrapper">
+                  <h3>Outlet</h3>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Outlet</NuxtLink>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-mobile__item" @click="toggleMenuMobileExtendedCamisetas" :class="{ active: menuMobileExtendedCamisetas }">
+                <NuxtLink to="/">Camisetas</NuxtLink>
+                <ul class="menu-mobile__item__subitem-wrapper">
+                  <h3>Camisetas</h3>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem">
+                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <div class="second-bar__logo">
         <NuxtLink to="/">
           <h1>Clothing Store</h1>
@@ -182,7 +309,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    &__logo {
+    .mobile-nav {
+      display: none;
+    }
+    &__logo,
+    .mobile-nav__logo {
       width: 100%;
       display: flex;
       align-items: center;
@@ -446,6 +577,153 @@
     @media screen and (max-width: 1200px) {
       grid-template-columns: 220px 1fr 1fr !important;
     }
+    @media screen and (max-width: 992px) {
+      grid-template-columns: 20px 1fr 1fr !important;
+      .second-bar__nav-menu {
+        display: none;
+      }
+      &__logo h1 {
+        width: 180px;
+        margin-left: 20px;
+      }
+      .mobile-nav {
+        display: flex;
+        height: 80px;
+        width: 32px;
+        &__icon {
+          background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNC4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIzIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDc4LjMgMTQuMyA2NCAzMiA2NEg0MTZjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJIMzJDMTQuMyAxMjggMCAxMTMuNyAwIDk2ek0wIDI1NmMwLTE3LjcgMTQuMy0zMiAzMi0zMkg0MTZjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJIMzJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyek00NDggNDE2YzAgMTcuNy0xNC4zIDMyLTMyIDMySDMyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMySDQxNmMxNy43IDAgMzIgMTQuMyAzMiAzMnoiLz48L3N2Zz4=)
+            no-repeat left center;
+          background-size: 30px;
+          cursor: pointer;
+          width: 100%;
+          height: 100%;
+          &.active {
+            width: 30px;
+            height: 50px;
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNC4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIzIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjYgMTUwLjZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNzLTMyLjgtMTIuNS00NS4zIDBMMTkyIDIxMC43IDg2LjYgMTA1LjRjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwcy0xMi41IDMyLjggMCA0NS4zTDE0Ni43IDI1NiA0MS40IDM2MS40Yy0xMi41IDEyLjUtMTIuNSAzMi44IDAgNDUuM3MzMi44IDEyLjUgNDUuMyAwTDE5MiAzMDEuMyAyOTcuNCA0MDYuNmMxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMHMxMi41LTMyLjggMC00NS4zTDIzNy4zIDI1NiAzNDIuNiAxNTAuNnoiLz48L3N2Zz4=)
+              no-repeat center center;
+          }
+        }
+        &__container {
+          width: 100vw;
+          height: 100vh;
+          background-color: white;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 400;
+          visibility: hidden;
+          transition: all 0.2s linear;
+          overflow-x: scroll;
+          transform: translateX(-100%);
+          &.active {
+            visibility: visible;
+            transform: translateX(0);
+          }
+          .mobile-nav__header {
+            height: 90px;
+            border-bottom: 1px solid #ccc;
+            .mobile-nav__logo h1 {
+              position: absolute;
+              top: 0;
+              left: 20px;
+            }
+          }
+          .search-mobile {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            input[type="text"] {
+              border: none;
+              outline: none;
+              font-size: 1rem;
+              padding-right: 5px;
+              padding-left: 20px;
+              width: calc(100% - 25px);
+            }
+            button[type="submit"] {
+              width: 25px;
+              height: 50px;
+              border: none;
+              background-color: transparent;
+              margin-right: 20px;
+              cursor: pointer;
+              .search-icon {
+                background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxIDIxTDE2LjY1IDE2LjY1TTE5IDExQzE5IDE1LjQxODMgMTUuNDE4MyAxOSAxMSAxOUM2LjU4MTcyIDE5IDMgMTUuNDE4MyAzIDExQzMgNi41ODE3MiA2LjU4MTcyIDMgMTEgM0MxNS40MTgzIDMgMTkgNi41ODE3MiAxOSAxMVoiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+                  no-repeat;
+                background-size: 100%;
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                background-position: center center;
+              }
+            }
+          }
+          .menu-mobile {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__container {
+              width: 100%;
+            }
+            &__item {
+              position: relative;
+              a {
+                cursor: pointer;
+                color: black;
+                font-weight: 700;
+                display: block;
+                width: 100%;
+                padding: 10px 20px;
+                background-color: #f1f1f1;
+                border-bottom: 1px solid #ccc;
+                &:hover {
+                  color: #8720ac;
+                }
+              }
+              &__subitem-wrapper {
+                position: relative;
+                z-index: 999;
+                transition: 0.2s linear;
+                visibility: hidden;
+                height: 0;
+                opacity: 0;
+                padding-inline: 20px;
+                h3 {
+                  cursor: default;
+                  font-size: 1.2rem;
+                }
+                a {
+                  padding: 0 !important;
+                  padding-inline: 20px !important;
+                  background: none;
+                  border: none;
+                  padding-block: 5px !important;
+                }
+              }
+              &.active {
+                .menu-mobile__item__subitem-wrapper {
+                  visibility: visible;
+                  opacity: 1;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+      .second-bar__function-buttons form {
+        display: none;
+      }
+    }
   }
 }
 </style>
@@ -457,12 +735,28 @@ export default defineComponent({
   data() {
     return {
       isActive: false,
+      menuMobile: false,
+      menuMobileExtendedBestSellers: false,
+      menuMobileExtendedOutlet: false,
+      menuMobileExtendedCamisetas: false,
     };
   },
   methods: {
     toggleCart: function () {
       this.isActive = !this.isActive;
     },
+    toggleMobileMenu: function () {
+      this.menuMobile = !this.menuMobile;
+    },
+    toggleMenuMobileExtendedBestSellers: function() {
+      this.menuMobileExtendedBestSellers = !this.menuMobileExtendedBestSellers
+    },
+    toggleMenuMobileExtendedOutlet: function() {
+      this.menuMobileExtendedOutlet = !this.menuMobileExtendedOutlet
+    },
+    toggleMenuMobileExtendedCamisetas: function() {
+      this.menuMobileExtendedCamisetas = !this.menuMobileExtendedCamisetas
+    }
   },
 });
 </script>

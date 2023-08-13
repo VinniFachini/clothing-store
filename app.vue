@@ -14,7 +14,6 @@ input:-webkit-autofill:active{
 html,
 body {
   overflow-x: hidden;
-  height: 100vh;
 }
 a {
   text-decoration: none;

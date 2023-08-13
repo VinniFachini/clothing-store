@@ -82,6 +82,7 @@ export default {
     color: black;
     font-weight: 600;
     font-size: 24px;
+    text-align: center;
     span {
       color: #8720ac;
       font-weight: 700;
@@ -102,14 +103,24 @@ export default {
     justify-content: center;
     width: 100%;
     max-width: 440px;
+    @media screen and (max-width: 375px) {
+        max-width: unset;
+        flex-direction: column;
+    }
     .input-text {
       width: 60%;
       border: 1px solid #222;
-      border-right: none;
       background: white;
       padding: 5px 0 5px 10px;
       height: 36px;
       outline: none;
+      @media screen and (max-width: 425px) {
+        max-width: 180px;
+      }
+      @media screen and (max-width: 375px) {
+        max-width: unset;
+        width: 100% !important;
+      }
     }
     .input-submit {
       width: 40%;
@@ -120,12 +131,22 @@ export default {
       font-weight: 600;
       line-height: 36px;
       cursor: pointer;
+      @media screen and (max-width: 425px) {
+        width: unset !important;
+        padding-inline: 15px;
+      }
+      @media screen and (max-width: 375px) {
+        max-width: unset;
+        width: 100% !important;
+        text-align: center;
+      }
     }
   }
   &__description {
     color: #b8c6d9;
     font-weight: 400;
     font-size: 1rem;
+    text-align: center;
   }
   .newsletter__success--backdrop {
     width: 100vw;
