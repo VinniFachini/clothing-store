@@ -1,10 +1,33 @@
 <template>
-  <Header />
-  <NuxtPage />
+  <Header :categories="categoriesMenu" />
+  <NuxtPage class="main" />
   <Footer />
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      categoriesMenu: []
+    }
+  },
+  mounted() {
+    this.fetchCategoriesMenu("./api.json")
+  },
+  methods: {
+    fetchCategoriesMenu: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.categoriesMenu = infoJson.categories;
+    },
+  }
+}
+
+</script>
 <style lang="scss">
+NuxtPage {
+  padding-top: 119px;
+}
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 

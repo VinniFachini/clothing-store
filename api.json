@@ -780,16 +780,49 @@
     },
     "categories": [
         {
-            "name": "Geek",
-            "id": "1"
+            "name": "Best Sellers",
+            "id": "1",
+            "slug": "best-sellers",
+            "department": true,
+            "subcategories": [
+                {"id": "6", "slug": "best-sellers-today", "name": "Best Sellers Today"},
+                {"id": "7", "slug": "best-sellers-this-week", "name": "Best Sellers This Week"},
+                {"id": "8", "slug": "best-sellers-this-month", "name": "Best Sellers This Month"}
+            ]
         },
         {
-            "name": "Games",
-            "id": "2"
+            "name": "Tênis",
+            "id": "2",
+            "slug": "tenis",
+            "department": false
         },
         {
-            "name": "Nerd",
-            "id": "3"
+            "name": "Acessórios",
+            "id": "3",
+            "slug": "acessorios",
+            "department": false
+        },
+        {
+            "name": "Outlet",
+            "id": "4",
+            "slug": "outlet",
+            "department": true,
+            "subcategories": [
+                {"id": "9",  "slug": "outlet-tenis", "name": "Outlet Tênis"},
+                {"id": "10", "slug": "outlet-acessorios", "name": "Outlet Acessórios"},
+                {"id": "11", "slug": "outlet-camisetas", "name": "Outlet Camisetas"}
+            ]
+        },
+        {
+            "name": "Camisetas",
+            "id": "5",
+            "slug": "camisetas",
+            "department": true,
+            "subcategories": [
+                {"id": "12", "slug": "camisetas-long-sleeve", "name": "Manga Longa"},
+                {"id": "13", "slug": "camisetas-short-sleeve", "name": "Manga Curta"},
+                {"id": "14", "slug": "camisetas-sweatshirt", "name": "Moletom"}
+            ]
         }
     ]
 }

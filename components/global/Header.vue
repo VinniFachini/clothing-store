@@ -33,99 +33,32 @@
           </form>
           <nav class="menu-mobile">
             <ul class="menu-mobile__container">
-              <li class="menu-mobile__item"  @click="toggleMenuMobileExtendedBestSellers" :class="{ active: menuMobileExtendedBestSellers }">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-                <ul class="menu-mobile__item__subitem-wrapper">
-                  <h3>Best Sellers</h3>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
+              <li
+                v-for="category in categories"
+                :key="category.id"
+                :data-identifier = "category.id"
+                class="menu-mobile__item"
+                @click="toggleMenuMobileExtended(category)"
+              >
+                <NuxtLink v-if="!category.department" @click="toggleMobileMenu" :to="{name: 'category-id', params: {id: category.slug}}">{{ category.name }}</NuxtLink>
+                <NuxtLink v-else class="has-children" >{{ category.name }}</NuxtLink>
+
+                <ul
+                  v-if="category.department"
+                  class="menu-mobile__item__subitem-wrapper"
+                >
+                  <li
+                    v-for="subcategory in category.subcategories"
+                    :key="subcategory.id"
+                    @click="toggleMobileMenu"
+                    class="menu-mobile__item__subitem-wrapper__subitem"
+                  >
+                    <NuxtLink :to="{name: 'category-id', params: {id: subcategory.slug}}">{{
+                      subcategory.name
+                    }}</NuxtLink>
                   </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Best Sellers</NuxtLink>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-mobile__item">
-                <NuxtLink to="/">Tênis</NuxtLink>
-              </li>
-              <li class="menu-mobile__item">
-                <NuxtLink to="/">Acessórios</NuxtLink>
-              </li>
-              <li class="menu-mobile__item" @click="toggleMenuMobileExtendedOutlet" :class="{ active: menuMobileExtendedOutlet }">
-                <NuxtLink to="/">Outlet</NuxtLink>
-                <ul class="menu-mobile__item__subitem-wrapper">
-                  <h3>Outlet</h3>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Outlet</NuxtLink>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-mobile__item" @click="toggleMenuMobileExtendedCamisetas" :class="{ active: menuMobileExtendedCamisetas }">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-                <ul class="menu-mobile__item__subitem-wrapper">
-                  <h3>Camisetas</h3>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
-                  </li>
-                  <li class="menu-mobile__item__subitem-wrapper__subitem">
-                    <NuxtLink to="/">Camisetas</NuxtLink>
+                  <li class="menu-mobile__item__subitem-wrapper__subitem" @click="toggleMobileMenu">
+                    <NuxtLink :to="{name: 'category-id', params: {id: category.slug}}">See All</NuxtLink>
                   </li>
                 </ul>
               </li>
@@ -140,99 +73,25 @@
       </div>
       <nav class="second-bar__nav-menu">
         <ul class="menu-desktop">
-          <li class="menu-desktop__item">
-            <NuxtLink to="/">Best Sellers</NuxtLink>
-            <ul class="menu-desktop__item__subitem-wrapper">
-              <h3>Best Sellers</h3>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Best Sellers</NuxtLink>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-desktop__item">
-            <NuxtLink to="/">Tênis</NuxtLink>
-          </li>
-          <li class="menu-desktop__item">
-            <NuxtLink to="/">Acessórios</NuxtLink>
-          </li>
-          <li class="menu-desktop__item">
-            <NuxtLink to="/">Outlet</NuxtLink>
-            <ul class="menu-desktop__item__subitem-wrapper">
-              <h3>Outlet</h3>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Outlet</NuxtLink>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-desktop__item">
-            <NuxtLink to="/">Camisetas</NuxtLink>
-            <ul class="menu-desktop__item__subitem-wrapper">
-              <h3>Camisetas</h3>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
-              </li>
-              <li class="menu-desktop__item__subitem-wrapper__subitem">
-                <NuxtLink to="/">Camisetas</NuxtLink>
+          <li
+            v-for="category in categories"
+            :key="category.id"
+            class="menu-desktop__item"
+          >
+            <NuxtLink :to="{name: 'category-id', params: {id: category.slug}}">{{ category.name }}</NuxtLink>
+            <ul
+              v-if="category.department"
+              class="menu-desktop__item__subitem-wrapper"
+            >
+              <h3>{{ category.name }}</h3>
+              <li
+                v-for="subcategory in category.subcategories"
+                :key="subcategory.id"
+                class="menu-desktop__item__subitem-wrapper__subitem"
+              >
+                <NuxtLink :to="{name: 'category-id', params: {id: subcategory.slug}}">{{
+                  subcategory.name
+                }}</NuxtLink>
               </li>
             </ul>
           </li>
@@ -618,8 +477,10 @@
           z-index: 400;
           visibility: hidden;
           transition: all 0.2s linear;
-          overflow-x: scroll;
+          overflow-y: auto;
+          overflow-x: hidden !important;
           transform: translateX(-100%);
+          padding: 0 !important;
           &.active {
             visibility: visible;
             transform: translateX(0);
@@ -682,11 +543,34 @@
                 font-weight: 700;
                 display: block;
                 width: 100%;
-                padding: 10px 20px;
+                padding: 15px 20px;
                 background-color: #f1f1f1;
                 border-bottom: 1px solid #ccc;
                 &:hover {
                   color: #8720ac;
+                }
+                &.has-children {
+                  position: relative;
+                  &:after {
+                    content: '';
+                    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEyIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjQxIDAuODExMjc5TDYgNS4zOTEyOEwxMC41OSAwLjgxMTI3OUwxMiAyLjIyMTI4TDYgOC4yMjEyOEwwIDIuMjIxMjhMMS40MSAwLjgxMTI3OVoiIGZpbGw9IiMzMzMzMzMiLz4KPC9zdmc+Cg==)
+                    no-repeat;
+                    background-size: 20px;
+                    width: 25px;
+                    height: 25px;
+                    display: inline-block;
+                    background-position: center center;
+                    position: absolute;
+                    right: 30px;
+                    top: 50%;
+                    transition: all .1s linear;
+                    transform: translateY(-50%) rotate(-90deg);
+                  }
+                  &.active {
+                    &:after {
+                      transform: translateY(-50%) rotate(0deg);
+                    }
+                  }
                 }
               }
               &__subitem-wrapper {
@@ -703,10 +587,9 @@
                 }
                 a {
                   padding: 0 !important;
-                  padding-inline: 20px !important;
+                  padding: 15px 20px !important;
                   background: none;
                   border: none;
-                  padding-block: 5px !important;
                 }
               }
               &.active {
@@ -732,13 +615,14 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   setup() {},
+  props: {
+    categories: Object,
+  },
   data() {
     return {
       isActive: false,
       menuMobile: false,
-      menuMobileExtendedBestSellers: false,
-      menuMobileExtendedOutlet: false,
-      menuMobileExtendedCamisetas: false,
+      menuMobileExtended: false,
     };
   },
   methods: {
@@ -748,15 +632,13 @@ export default defineComponent({
     toggleMobileMenu: function () {
       this.menuMobile = !this.menuMobile;
     },
-    toggleMenuMobileExtendedBestSellers: function() {
-      this.menuMobileExtendedBestSellers = !this.menuMobileExtendedBestSellers
+    toggleMenuMobileExtended: function (item: any) {
+      const currentElement = document.querySelector(`.menu-mobile__item[data-identifier="${item.id}"]`)
+      const nextA = currentElement?.querySelector('.has-children')
+      nextA?.classList.toggle("active")
+      currentElement?.classList.toggle("active")
+      // this.menuMobileExtended = !this.menuMobileExtended;
     },
-    toggleMenuMobileExtendedOutlet: function() {
-      this.menuMobileExtendedOutlet = !this.menuMobileExtendedOutlet
-    },
-    toggleMenuMobileExtendedCamisetas: function() {
-      this.menuMobileExtendedCamisetas = !this.menuMobileExtendedCamisetas
-    }
   },
 });
 </script>
