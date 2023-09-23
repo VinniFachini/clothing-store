@@ -40,7 +40,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #222;
 }
 .container {
   width: 100%;

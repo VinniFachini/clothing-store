@@ -99,9 +99,12 @@
 </template>
 
 <style lang="scss" scoped>
+
+a{
+  color: white;
+}
 .footer {
   padding-top: 40px;
-  margin-top: 80px;
   background-color: #222;
   color: white;
   &-info {

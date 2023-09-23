@@ -6,11 +6,11 @@
   <BannerHome :banners="bannerHomeItems" />
   <BannerAnnouncements />
   <BannerGrid :banners="bannerGridItems" title="Banner Grid" />
-  <ProductShowcase title="Best Sellers" :products="products" />
-  <ProductShowcase title="Snickers" :products="products" />
+  <ProductShowcase :title="firstShowcase.title" :products="firstShowcase.products" />
+  <ProductShowcase :title="secondShowcase.title" :products="secondShowcase.products" />
   <BannerFull  :banners="bannerFullItems" title="They wear us" />
-  <ProductShowcase title="Accessories" :products="products" />
-  <ProductShowcase title="Shirts" :products="products" />
+  <ProductShowcase :title="thirdShowcase.title" :products="thirdShowcase.products" />
+  <ProductShowcase :title="fourthShowcase.title" :products="fourthShowcase.products" />
   <Newsletter />
   <BannerAboutUs :banners="bannerAboutUs"/>
 </template>
@@ -25,11 +25,19 @@ export default {
       bannerHomeItems: [],
       bannerGridItems: [],
       bannerFullItems: [],
-      bannerAboutUs: []
+      bannerAboutUs: [],
+      firstShowcase: [],
+      secondShowcase: [],
+      thirdShowcase: [],
+      fourthShowcase: [],
     };
   },
   mounted() {
     this.fetchProducts("../api.json");
+    this.fetchfirstShowcase("../api.json");
+    this.fetchsecondShowcase("../api.json");
+    this.fetchthirdShowcase("../api.json");
+    this.fetchfourthShowcase("../api.json");
     this.fetchBannerHome("../api.json");
     this.fetchBannerGrid("../api.json");
     this.fetchBannerFull("../api.json");
@@ -40,6 +48,26 @@ export default {
       const info = await fetch(url);
       const infoJson = await info.json();
       this.products = infoJson.products;
+    },
+    fetchfirstShowcase: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.firstShowcase = infoJson.showcases[0];
+    },
+    fetchsecondShowcase: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.secondShowcase = infoJson.showcases[1];
+    },
+    fetchthirdShowcase: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.thirdShowcase = infoJson.showcases[2];
+    },
+    fetchfourthShowcase: async function (url) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.fourthShowcase = infoJson.showcases[3];
     },
     fetchBannerHome: async function (url) {
       const info = await fetch(url);

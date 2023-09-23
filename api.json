@@ -1,12 +1,13 @@
 {
     "products": [
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Red Leather Jacket",
+            "sku": "red-leather-jacket-001",
+            "material": "Leather",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 199.99,
+            "newPrice": 149.99,
+            "brand": "LeatherMaker",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -50,13 +51,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Blue Denim Jeans",
+            "sku": "blue-denim-jeans-002",
+            "material": "Jeans",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 79.99,
+            "newPrice": 59.99,
+            "brand": "JeansMaker",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -100,13 +101,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Stainless Steel Watch",
+            "sku": "stainless-steel-watch-003",
+            "material": "Stainless Steel",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 149.99,
+            "newPrice": 119.99,
+            "brand": "Watcher",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -150,13 +151,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "White Sneakers",
+            "sku": "white-sneakers-004",
+            "material": "Cloth",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 69.99,
+            "newPrice": 49.99,
+            "brand": "SneakersMakers",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -200,13 +201,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Floral Sundress",
+            "sku": "floral-sundress-005",
+            "material": "Cloth",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 89.99,
+            "newPrice": 69.99,
+            "brand": "Dresses Besses",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -250,13 +251,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Leather Messenger Bag",
+            "sku": "leather-messenger-bag-006",
+            "material": "Leather",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 129.99,
+            "newPrice": 99.99,
+            "brand": "LeatherMaker",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -300,13 +301,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Wireless Bluetooth Earbuds",
+            "sku": "wireless-bluetooth-earbuds-007",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 59.99,
+            "newPrice": 39.99,
+            "brand": "Wireless Buds",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -350,13 +351,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "4K Smart TV",
+            "sku": "4k-smart-tv-008",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 699.99,
+            "newPrice": 599.99,
+            "brand": "LG",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -400,13 +401,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Coffee Maker",
+            "sku": "coffee-maker-009",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 49.99,
+            "newPrice": 39.99,
+            "brand": "Coffee Maker",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -450,13 +451,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Fitness Tracker",
+            "sku": "fitness-tracker-010",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 79.99,
+            "newPrice": 59.99,
+            "brand": "Fitness Now",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -500,13 +501,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Gaming Laptop",
+            "sku": "gaming-laptop-011",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 1499.99,
+            "newPrice": 1299.99,
+            "brand": "Dell",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -550,13 +551,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Professional Camera",
+            "sku": "professional-camera-012",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 999.99,
+            "newPrice": 899.99,
+            "brand": "Nixon",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -600,13 +601,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Electric Toothbrush",
+            "sku": "electric-toothbrush-013",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 39.99,
+            "newPrice": 29.99,
+            "brand": "Nixon",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -650,13 +651,13 @@
             }
         },
         {
-            "name": "Incredible Granite Fish",
-            "sku": "incredible-granite-fish",
-            "material": "Metal",
+            "name": "Portable Power Bank",
+            "sku": "portable-power-bank-014",
+            "material": "Plastic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
-            "oldPrice": 400.00,
-            "newPrice": 339.99,
-            "brand": "MetalMask",
+            "oldPrice": 29.99,
+            "newPrice": 19.99,
+            "brand": "Xiaomi",
             "images": {
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
@@ -698,6 +699,932 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Classic Leather Wallet",
+            "sku": "classic-leather-wallet-015",
+            "material": "Leather",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 49.99,
+            "newPrice": 34.99,
+            "brand": "LeatherMaker",
+            "images": {
+                "main": "https://loremflickr.com/400/600?random=1",
+                "mouseOver": "https://loremflickr.com/400/600?random=2",
+                "thumbs": [
+                    "https://loremflickr.com/400/600?random=3",
+                    "https://loremflickr.com/400/600?random=4",
+                    "https://loremflickr.com/400/600?random=5",
+                    "https://loremflickr.com/400/600?random=6",
+                    "https://loremflickr.com/400/600?random=7",
+                    "https://loremflickr.com/400/600?random=8"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "15",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Modern Leather Wallet",
+            "sku": "modern-leather-wallet-016",
+            "material": "Leather",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+            "oldPrice": 59.99,
+            "newPrice": 44.99,
+            "brand": "LeatherMaker",
+            "images": {
+                "main": "https://loremflickr.com/400/600?random=1",
+                "mouseOver": "https://loremflickr.com/400/600?random=2",
+                "thumbs": [
+                    "https://loremflickr.com/400/600?random=3",
+                    "https://loremflickr.com/400/600?random=4",
+                    "https://loremflickr.com/400/600?random=5",
+                    "https://loremflickr.com/400/600?random=6",
+                    "https://loremflickr.com/400/600?random=7",
+                    "https://loremflickr.com/400/600?random=8"
+                ]
+            },
+            "category": [
+                "2",
+                "1",
+                "3"
+            ],
+            "id": "16",
+            "attributes": {
+                "size": [
+                    "P",
+                    "M",
+                    "G",
+                    "GG",
+                    "XL"
+                ],
+                "color": [
+                    {
+                        "hex": "#222222",
+                        "colorName": "Black"
+                    },
+                    {
+                        "hex": "#f5e19f",
+                        "colorName": "Beige"
+                    },
+                    {
+                        "hex": "#ed243e",
+                        "colorName": "Red"
+                    }
+                ]
+            }
+        }
+    ],
+    "showcases": [
+        {
+            "id": "home-1",
+            "title": "Best Sellers",
+            "products": [
+                {
+                "name": "Red Leather Jacket",
+                "sku": "red-leather-jacket-001",
+                "material": "Leather",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                "oldPrice": 199.99,
+                "newPrice": 149.99,
+                "brand": "LeatherMaker",
+                "images": {
+                    "main": "https://loremflickr.com/400/600?random=1",
+                    "mouseOver": "https://loremflickr.com/400/600?random=2",
+                    "thumbs": [
+                        "https://loremflickr.com/400/600?random=3",
+                        "https://loremflickr.com/400/600?random=4",
+                        "https://loremflickr.com/400/600?random=5",
+                        "https://loremflickr.com/400/600?random=6",
+                        "https://loremflickr.com/400/600?random=7",
+                        "https://loremflickr.com/400/600?random=8"
+                    ]
+                },
+                "category": [
+                    "2",
+                    "1",
+                    "3"
+                ],
+                "id": "1",
+                "attributes": {
+                    "size": [
+                        "P",
+                        "M",
+                        "G",
+                        "GG",
+                        "XL"
+                    ],
+                    "color": [
+                        {
+                            "hex": "#222222",
+                            "colorName": "Black"
+                        },
+                        {
+                            "hex": "#f5e19f",
+                            "colorName": "Beige"
+                        },
+                        {
+                            "hex": "#ed243e",
+                            "colorName": "Red"
+                        }
+                    ]
+                }
+                },
+                {
+                "name": "Blue Denim Jeans",
+                "sku": "blue-denim-jeans-002",
+                "material": "Jeans",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                "oldPrice": 79.99,
+                "newPrice": 59.99,
+                "brand": "JeansMaker",
+                "images": {
+                    "main": "https://loremflickr.com/400/600?random=1",
+                    "mouseOver": "https://loremflickr.com/400/600?random=2",
+                    "thumbs": [
+                        "https://loremflickr.com/400/600?random=3",
+                        "https://loremflickr.com/400/600?random=4",
+                        "https://loremflickr.com/400/600?random=5",
+                        "https://loremflickr.com/400/600?random=6",
+                        "https://loremflickr.com/400/600?random=7",
+                        "https://loremflickr.com/400/600?random=8"
+                    ]
+                },
+                "category": [
+                    "2",
+                    "1",
+                    "3"
+                ],
+                "id": "2",
+                "attributes": {
+                    "size": [
+                        "P",
+                        "M",
+                        "G",
+                        "GG",
+                        "XL"
+                    ],
+                    "color": [
+                        {
+                            "hex": "#222222",
+                            "colorName": "Black"
+                        },
+                        {
+                            "hex": "#f5e19f",
+                            "colorName": "Beige"
+                        },
+                        {
+                            "hex": "#ed243e",
+                            "colorName": "Red"
+                        }
+                    ]
+                }
+                },
+                {
+                "name": "Stainless Steel Watch",
+                "sku": "stainless-steel-watch-003",
+                "material": "Stainless Steel",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                "oldPrice": 149.99,
+                "newPrice": 119.99,
+                "brand": "Watcher",
+                "images": {
+                    "main": "https://loremflickr.com/400/600?random=1",
+                    "mouseOver": "https://loremflickr.com/400/600?random=2",
+                    "thumbs": [
+                        "https://loremflickr.com/400/600?random=3",
+                        "https://loremflickr.com/400/600?random=4",
+                        "https://loremflickr.com/400/600?random=5",
+                        "https://loremflickr.com/400/600?random=6",
+                        "https://loremflickr.com/400/600?random=7",
+                        "https://loremflickr.com/400/600?random=8"
+                    ]
+                },
+                "category": [
+                    "2",
+                    "1",
+                    "3"
+                ],
+                "id": "3",
+                "attributes": {
+                    "size": [
+                        "P",
+                        "M",
+                        "G",
+                        "GG",
+                        "XL"
+                    ],
+                    "color": [
+                        {
+                            "hex": "#222222",
+                            "colorName": "Black"
+                        },
+                        {
+                            "hex": "#f5e19f",
+                            "colorName": "Beige"
+                        },
+                        {
+                            "hex": "#ed243e",
+                            "colorName": "Red"
+                        }
+                    ]
+                }
+                },
+                {
+                "name": "White Sneakers",
+                "sku": "white-sneakers-004",
+                "material": "Cloth",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                "oldPrice": 69.99,
+                "newPrice": 49.99,
+                "brand": "SneakersMakers",
+                "images": {
+                    "main": "https://loremflickr.com/400/600?random=1",
+                    "mouseOver": "https://loremflickr.com/400/600?random=2",
+                    "thumbs": [
+                        "https://loremflickr.com/400/600?random=3",
+                        "https://loremflickr.com/400/600?random=4",
+                        "https://loremflickr.com/400/600?random=5",
+                        "https://loremflickr.com/400/600?random=6",
+                        "https://loremflickr.com/400/600?random=7",
+                        "https://loremflickr.com/400/600?random=8"
+                    ]
+                },
+                "category": [
+                    "2",
+                    "1",
+                    "3"
+                ],
+                "id": "4",
+                "attributes": {
+                    "size": [
+                        "P",
+                        "M",
+                        "G",
+                        "GG",
+                        "XL"
+                    ],
+                    "color": [
+                        {
+                            "hex": "#222222",
+                            "colorName": "Black"
+                        },
+                        {
+                            "hex": "#f5e19f",
+                            "colorName": "Beige"
+                        },
+                        {
+                            "hex": "#ed243e",
+                            "colorName": "Red"
+                        }
+                    ]
+                }
+                }
+            ]
+        },
+        {
+            "id": "home-2",
+            "title": "Sneakers",
+            "products": [
+                {
+                "name": "Floral Sundress",
+                "sku": "floral-sundress-005",
+                "material": "Cloth",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                "oldPrice": 89.99,
+                "newPrice": 69.99,
+                "brand": "Dresses Besses",
+                "images": {
+                    "main": "https://loremflickr.com/400/600?random=1",
+                    "mouseOver": "https://loremflickr.com/400/600?random=2",
+                    "thumbs": [
+                        "https://loremflickr.com/400/600?random=3",
+                        "https://loremflickr.com/400/600?random=4",
+                        "https://loremflickr.com/400/600?random=5",
+                        "https://loremflickr.com/400/600?random=6",
+                        "https://loremflickr.com/400/600?random=7",
+                        "https://loremflickr.com/400/600?random=8"
+                    ]
+                },
+                "category": [
+                    "2",
+                    "1",
+                    "3"
+                ],
+                "id": "5",
+                "attributes": {
+                    "size": [
+                        "P",
+                        "M",
+                        "G",
+                        "GG",
+                        "XL"
+                    ],
+                    "color": [
+                        {
+                            "hex": "#222222",
+                            "colorName": "Black"
+                        },
+                        {
+                            "hex": "#f5e19f",
+                            "colorName": "Beige"
+                        },
+                        {
+                            "hex": "#ed243e",
+                            "colorName": "Red"
+                        }
+                    ]
+                }
+                },
+                {
+                    "name": "Leather Messenger Bag",
+                    "sku": "leather-messenger-bag-006",
+                    "material": "Leather",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 129.99,
+                    "newPrice": 99.99,
+                    "brand": "LeatherMaker",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "6",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Wireless Bluetooth Earbuds",
+                    "sku": "wireless-bluetooth-earbuds-007",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 59.99,
+                    "newPrice": 39.99,
+                    "brand": "Wireless Buds",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "7",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "4K Smart TV",
+                    "sku": "4k-smart-tv-008",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 699.99,
+                    "newPrice": 599.99,
+                    "brand": "LG",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "8",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "home-3",
+            "title": "Accessories",
+            "products": [
+                {
+                    "name": "Coffee Maker",
+                    "sku": "coffee-maker-009",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 49.99,
+                    "newPrice": 39.99,
+                    "brand": "Coffee Maker",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "9",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Fitness Tracker",
+                    "sku": "fitness-tracker-010",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 79.99,
+                    "newPrice": 59.99,
+                    "brand": "Fitness Now",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "10",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Gaming Laptop",
+                    "sku": "gaming-laptop-011",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 1499.99,
+                    "newPrice": 1299.99,
+                    "brand": "Dell",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "11",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Professional Camera",
+                    "sku": "professional-camera-012",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 999.99,
+                    "newPrice": 899.99,
+                    "brand": "Nixon",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "12",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "home-4",
+            "title": "Shirts",
+            "products": [
+                {
+                    "name": "Electric Toothbrush",
+                    "sku": "electric-toothbrush-013",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 39.99,
+                    "newPrice": 29.99,
+                    "brand": "Nixon",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "13",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Portable Power Bank",
+                    "sku": "portable-power-bank-014",
+                    "material": "Plastic",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 29.99,
+                    "newPrice": 19.99,
+                    "brand": "Xiaomi",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "14",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Classic Leather Wallet",
+                    "sku": "classic-leather-wallet-015",
+                    "material": "Leather",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 49.99,
+                    "newPrice": 34.99,
+                    "brand": "LeatherMaker",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "15",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Modern Leather Wallet",
+                    "sku": "modern-leather-wallet-016",
+                    "material": "Leather",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget placerat orci, a varius nulla. Integer vitae nisi ultricies, vehicula risus non, dapibus elit. Nulla euismod cursus finibus. Duis et facilisis turpis. Donec arcu mi, ullamcorper a velit vehicula, posuere luctus ipsum. Suspendisse potenti. Quisque efficitur, tellus imperdiet vehicula dapibus, velit odio tempus leo, viverra mattis quam dui vitae arcu. Nam nec odio quis purus tempus posuere. Quisque nulla nulla, ornare sit amet mi in, dapibus facilisis est. Sed id odio ex. Sed feugiat ultrices velit, sed convallis dolor ultrices at. Morbi neque massa, rutrum id urna pretium, commodo finibus erat. Phasellus placerat massa et metus viverra, id maximus tellus rhoncus. In dapibus congue luctus. Sed elementum odio fermentum, dictum purus et, pellentesque erat. Fusce non fermentum quam. Donec tempus ut lorem fringilla dignissim. Cras purus elit, porta eu mauris ac, tempus semper odio. Phasellus mi nunc, lobortis ac molestie ac, finibus eu turpis. Duis vehicula aliquet lacus, non scelerisque leo bibendum id. Duis a diam eu ante feugiat iaculis. Vivamus fermentum odio velit, in pharetra ante sollicitudin ut. Donec sed urna eu massa dignissim cursus viverra eu ipsum. Proin imperdiet pellentesque tempus. Nulla varius accumsan tellus id eleifend. Nam posuere gravida lectus eu tincidunt. Aenean volutpat lacus eget quam elementum, sit amet pharetra purus imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean faucibus lectus ac sodales venenatis. Donec non suscipit tellus. Donec eu turpis placerat, consequat metus quis, congue urna. Duis massa ligula, posuere nec elit vel, suscipit congue sem. Maecenas ut gravida est. Donec aliquam placerat risus, at efficitur enim egestas eget. Vivamus sit amet elementum nulla, sed mattis arcu. Mauris sit amet justo in augue semper auctor quis vitae justo. Pellentesque accumsan libero quis tortor laoreet scelerisque. Proin eget varius arcu. Pellentesque ut nisi at ante sagittis feugiat. Morbi augue eros, ornare sed porttitor id, tincidunt a nisi. Suspendisse tincidunt rutrum mi, auctor vestibulum risus tincidunt vel.",
+                    "oldPrice": 59.99,
+                    "newPrice": 44.99,
+                    "brand": "LeatherMaker",
+                    "images": {
+                        "main": "https://loremflickr.com/400/600?random=1",
+                        "mouseOver": "https://loremflickr.com/400/600?random=2",
+                        "thumbs": [
+                            "https://loremflickr.com/400/600?random=3",
+                            "https://loremflickr.com/400/600?random=4",
+                            "https://loremflickr.com/400/600?random=5",
+                            "https://loremflickr.com/400/600?random=6",
+                            "https://loremflickr.com/400/600?random=7",
+                            "https://loremflickr.com/400/600?random=8"
+                        ]
+                    },
+                    "category": [
+                        "2",
+                        "1",
+                        "3"
+                    ],
+                    "id": "16",
+                    "attributes": {
+                        "size": [
+                            "P",
+                            "M",
+                            "G",
+                            "GG",
+                            "XL"
+                        ],
+                        "color": [
+                            {
+                                "hex": "#222222",
+                                "colorName": "Black"
+                            },
+                            {
+                                "hex": "#f5e19f",
+                                "colorName": "Beige"
+                            },
+                            {
+                                "hex": "#ed243e",
+                                "colorName": "Red"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "banners": {
@@ -822,6 +1749,48 @@
                 {"id": "12", "slug": "camisetas-long-sleeve", "name": "Manga Longa"},
                 {"id": "13", "slug": "camisetas-short-sleeve", "name": "Manga Curta"},
                 {"id": "14", "slug": "camisetas-sweatshirt", "name": "Moletom"}
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "filterName": "Adult Size",
+            "queryPrefix": "adultSize",
+            "sizes": [
+                "P",
+                "M",
+                "G",
+                "GG",
+                "XL"
+            ]
+        },
+        {
+            "filterName": "Infant Size",
+            "queryPrefix": "infantSize",
+            "sizes": [
+                "P",
+                "M",
+                "G",
+                "GG",
+                "XL"
+            ]
+        },
+        {
+            "filterName": "Colors",
+            "queryPrefix": "color",
+            "colors": [
+                {
+                    "hex": "#222222",
+                    "colorName": "Black"
+                },
+                {
+                    "hex": "#f5e19f",
+                    "colorName": "Beige"
+                },
+                {
+                    "hex": "#ed243e",
+                    "colorName": "Red"
+                }
             ]
         }
     ]

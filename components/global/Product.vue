@@ -24,6 +24,8 @@
 .product-item {
   width: 100%;
   margin-inline: 5px;
+  text-align: center;
+  background-color: white;
   figure {
     width: 100%;
     position: relative;
@@ -53,19 +55,23 @@
     }
   }
   figcaption {
+    margin-top: 10px;
     font-size: 1.3rem;
   }
-  .old-price {
-    &__value {
-      font-size: 1rem;
-      text-decoration: line-through;
-      color: #939393;
+  .price {
+    padding-bottom: 20px;
+    .old-price {
+      &__value {
+        font-size: 1rem;
+        text-decoration: line-through;
+        color: #939393;
+      }
     }
-  }
-  .new-price {
-    &__value {
-      font-size: 1.3rem;
-      color: #111;
+    .new-price {
+      &__value {
+        font-size: 1.3rem;
+        color: #111;
+      }
     }
   }
 }
