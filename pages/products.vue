@@ -4,7 +4,7 @@
         <Meta name="description" content="An Online Clothing Store" />
     </Head>
     <div class="page-container">
-        <aside>
+        <aside :class="{ active: mobileMenuActive }">
             <div class="filter-container">
                 <h3><mark>Filter</mark></h3>
                 <ul class="filter-list">
@@ -12,20 +12,39 @@
                         <NuxtLink :to="{name: 'category-id', params: {id: category.slug}}" >{{ category.name }}</NuxtLink>                     
                     </li>
                 </ul>
+
+                <div v-if="activeFilters" class="filter-active-list">
+                    <h3><mark>Active Filters</mark></h3>
+                    <ul class="filter-active-list">
+                        <li class="filter-active-list__item" v-for="filter in activeFilters" :key="filter">
+                            <span class="item-info">{{filter.filterName}}: <strong>{{ filter.value }}</strong></span>
+                            <span @click="removeFilter(filter)" class="item-erase">x</span>
+                        </li>
+                    </ul>
+                </div>
+
                 <div v-for="attribute in attributes" :key="attribute.queryPrefix" class="filter-attributes">
                     <h3 class="filter-attributes__title">{{ attribute.filterName }}</h3>
-                    <ul class="filter-attributes__list">
-                        <li v-for="size in attribute.sizes" :key="size" class="filter-attributes__list__item">
-                            <NuxtLink :to="{path: 'products'}" >{{ attribute.queryPrefix }}</NuxtLink>    
+                    <ul v-if="attribute.filterType == 'size'" class="filter-attributes--size__list">
+                        <li v-for="size in attribute.sizes" :data-size-id="attribute.queryPrefix + size" :key="size" class="filter-attributes--size__list__item">
+                            <span @click="activeFilter(attribute, size); activeMenuMobile(); loadSessionStorage()">{{ size }}</span> 
+                        </li>    
+                    </ul>
+                    <ul v-if="attribute.filterType == 'color'" class="filter-attributes--color__list">
+                        <li v-for="color in attribute.colors" :data-size-id="attribute.queryPrefix + color" :key="color.colorName" class="filter-attributes--color__list__item">
+                            <span @click="activeFilter(attribute, color.colorName); activeMenuMobile(); loadSessionStorage()">
+                                <div class="color-sample" :style="{'background-color': color.hex}"></div>
+                                <span class="color-name">{{ color.colorName }}</span>
+                            </span> 
                         </li>    
                     </ul>
                 </div>
             </div>
         </aside>
-        <div class="mobile-backdrop"></div>
+        <div class="mobile-backdrop" :class="{ active: mobileMenuActive }" @click="activeMenuMobile"></div>
         <main>
             <div class="search-control">
-                <button>Filter</button>
+                <button @click="activeMenuMobile">Filter</button>
                 <h2>Our Products</h2>
                 <select name="orderby" id="orderby">
                     <option value="default">Order By</option>
@@ -70,6 +89,9 @@
                 left: 0px;
                 top: 50%;
                 transform: translateY(-50%);
+                @media screen and (max-width: 992px) {
+                    display: flex;
+                }
             }
             select {
                 position: absolute;
@@ -88,6 +110,21 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
+                @media screen and (max-width: 1200px) {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                @media screen and (max-width: 1024px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                @media screen and (max-width: 992px) {
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                @media screen and (max-width: 768px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                @media screen and (max-width: 425px) {
+                    grid-template-columns: repeat(1, 1fr);
+                }
             }
         }
         aside {
@@ -119,6 +156,107 @@
                                 text-decoration: underline #222;
                                 text-underline-offset: 4px
                             }
+                        }
+                    }
+                }
+                .filter-attributes{
+                    &__title {
+                        font-size: 1.2rem;
+                        margin-block: 10px 5px;
+                    }
+                    &--size{
+                        &__list {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            &__item {
+                                width: 100%;
+                                cursor: pointer;
+                                span {
+                                    width: 100%;
+                                    display: inline-block;
+                                    padding-left: 15px;
+                                    padding-block: 5px;
+                                }
+                                &:hover {
+                                    span {
+                                        text-decoration: underline;
+                                        text-underline-offset: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &--color {
+                        &__list {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            &__item {
+                                width: 100%;
+                                cursor: pointer;
+                                span {
+                                    width: 100%;
+                                    padding-left: 15px;
+                                    padding-block: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start;
+                                    .color-sample {
+                                        min-width: 20px;
+                                        min-height: 20px;
+                                    }
+                                }
+                                &:hover {
+                                    span .color-name {
+                                        text-decoration: underline;
+                                        text-underline-offset: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .filter-active-list{
+                    > h3 {
+                        border-bottom: 1px solid #222;
+                        padding-bottom: 8px;
+                        padding-top: 20px;
+                        mark {
+                            background-color: transparent;
+                            padding-left: 16px;
+                            font-size: 1.8rem;
+                        }
+                    } 
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                    }
+                    &__item {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-inline: 10px;
+                        padding-block: 5px;
+                        .item-info {
+                            font-size: 1.2rem;
+                            strong{
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .item-erase {
+                            text-indent: -999999999px;
+                            width: 20px;
+                            height: 20px;
+                            background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5IDYuNzk3MDhMMTcuNTkgNS4zODcwOEwxMiAxMC45NzcxTDYuNDEgNS4zODcwOEw1IDYuNzk3MDhMMTAuNTkgMTIuMzg3MUw1IDE3Ljk3NzFMNi40MSAxOS4zODcxTDEyIDEzLjc5NzFMMTcuNTkgMTkuMzg3MUwxOSAxNy45NzcxTDEzLjQxIDEyLjM4NzFMMTkgNi43OTcwOFoiIGZpbGw9IiMzMzMzMzMiLz4KPC9zdmc+Cg==) no-repeat center center;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -176,15 +314,60 @@ export default {
         return {
             products: [],
             attributes: [],
-            categories: []
+            categories: [],
+            mobileMenuActive: false,
+            activeFilters: null
         }
     },
     mounted() {
         this.fetchProducts("../api.json");
         this.fetchAttributes("../api.json");
         this.fetchCategories("../api.json");
+        this.loadSessionStorage()
+
+    },
+    beforeUnmount() {
+        sessionStorage.removeItem("selectedFilters")
     },
     methods: {
+        removeFilter: function(filter) {
+            const items = JSON.parse(sessionStorage.getItem("selectedFilters"))
+            const newArr = items.map(item => !(item.filterName == filter.filterName && item.value == filter.value) ? item : '').filter(obj => obj)
+            sessionStorage.setItem("selectedFilters", JSON.stringify(newArr))
+            this.activeFilters = newArr
+            const route = useRoute()
+            const router = useRouter()
+            console.log(route)
+            console.log(router)
+
+            const first = `?${filter.filterPrefix}=${filter.value}` 
+            const whatever = `&${filter.filterPrefix}=${filter.value}`
+            let newUrl;
+
+            if (route.fullPath.includes(first)) {
+                newUrl = route.fullPath.replace(first, '')
+                if(newUrl.startsWith("/products&")) {
+                    newUrl = newUrl.replace("/products&", "/products?")
+                    router.replace(newUrl)
+                }
+            } else if (route.fullPath.includes(whatever)) {
+                newUrl = route.fullPath.replace(whatever, '')
+                if(newUrl.startsWith("/products&")) {
+                    newUrl = newUrl.replace("/products&", "/products?")
+                    router.replace(newUrl)
+                }
+            } 
+
+            console.log(newUrl)
+
+            if(newUrl == '/products') {
+                router.replace(newUrl)
+            }
+
+            if(this.activeFilters.length == 0) {
+                this.activeFilters = null
+            }
+        },
         fetchProducts: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
@@ -199,6 +382,57 @@ export default {
             const info = await fetch(url);
             const infoJson = await info.json();
             this.categories = infoJson.categories;
+        },
+        activeFilter: function(attr, size) {
+            const router = useRouter()
+            const route = useRoute()
+            let storage = sessionStorage.getItem("selectedFilters")
+
+            if(Object.keys(route.query).length == 0 && route.query.constructor === Object) {
+                router.push((`${route.path}?${attr.queryPrefix}=${size}`))
+                if(storage){
+                    let newSession = []
+                    newSession = newSession.concat(JSON.parse(storage))
+                    newSession.push({filterName: attr.filterName, value: size, filterPrefix: attr.queryPrefix})
+                    sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
+                } else {
+                    let newSession = []
+                    newSession.push({filterName: attr.filterName, value: size, filterPrefix: attr.queryPrefix})
+                    sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
+                }
+                const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
+                console.log(currentElement)
+            } else {
+                const newSize = size
+                const items = Object.values(route.query)[Object.keys(route.query).indexOf(attr.queryPrefix)] || []
+                if(!items.includes(newSize)) {
+                    router.push((`${route.fullPath}&${attr.queryPrefix}=${size}`))
+                    if(storage){
+                    let newSession = []
+                    newSession = newSession.concat(JSON.parse(storage))
+                    newSession.push({filterName: attr.filterName, value: size, filterPrefix: attr.queryPrefix})
+                    sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
+                    } else {
+                        let newSession = []
+                        newSession.push({filterName: attr.filterName, value: size, filterPrefix: attr.queryPrefix})
+                        sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
+                    }
+                }
+                const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
+                console.log(currentElement)
+            } 
+        },
+        activeMenuMobile: function() {
+            this.mobileMenuActive = !this.mobileMenuActive 
+        },
+        loadSessionStorage: function() {
+            let storage = sessionStorage.getItem("selectedFilters")
+            if(storage) {
+                let getItems = sessionStorage.getItem("selectedFilters")
+                this.activeFilters = JSON.parse(getItems)
+            } else {
+                sessionStorage.setItem("selectedFilters", [])
+            }
         }
     }
 }

@@ -1754,6 +1754,7 @@
     ],
     "attributes": [
         {
+            "filterType": "size",
             "filterName": "Adult Size",
             "queryPrefix": "adultSize",
             "sizes": [
@@ -1765,6 +1766,7 @@
             ]
         },
         {
+            "filterType": "size",
             "filterName": "Infant Size",
             "queryPrefix": "infantSize",
             "sizes": [
@@ -1776,6 +1778,7 @@
             ]
         },
         {
+            "filterType": "color",
             "filterName": "Colors",
             "queryPrefix": "color",
             "colors": [
@@ -1791,6 +1794,22 @@
                     "hex": "#ed243e",
                     "colorName": "Red"
                 }
+            ]
+        },
+        {
+            "filterType": "size",
+            "filterName": "Shoe Size",
+            "queryPrefix": "shoeSize",
+            "sizes": [
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46"
             ]
         }
     ]
