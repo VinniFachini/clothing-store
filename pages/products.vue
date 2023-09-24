@@ -46,9 +46,17 @@
             <div class="search-control">
                 <button @click="activeMenuMobile">Filter</button>
                 <h2>Our Products</h2>
-                <select name="orderby" id="orderby">
-                    <option value="default">Order By</option>
-                </select>
+                <div class="select">
+                    <select v-model="order" @change="handleChange()" name="orderby" id="orderby">
+                        <option value="default">Order By</option>
+                        <option value="asc_name">Name A - Z</option>
+                        <option value="desc_name">Name Z - A</option>
+                        <option value="smallest_price">Smallest Price</option>
+                        <option value="biggest_price">Biggest Price</option>
+                        <option value="most_recent">Most Recent</option>
+                        <option value="best_sellers">Best Sellers</option>
+                    </select>
+                </div>
             </div>
             <div class="products-container">
                 <ul class="products">
@@ -91,17 +99,82 @@
                 transform: translateY(-50%);
                 @media screen and (max-width: 992px) {
                     display: flex;
+                    width: 100%;
+                    max-width: 130px;
+                    justify-content: center;
+                    align-items: center;
+                    background: #222;
+                    color: white;
+                    padding-block: 5px;
+                    border: none;
+                }
+                @media screen and (max-width: 500px) {
+                    max-width: unset !important;
+                    position: relative !important;
                 }
             }
             select {
+                appearance: none;
+                outline: 10px red;
+                border: 0;
+                box-shadow: none;
+                min-width: 160px;
+                width: 100%;
+                flex: 1;
+                padding: 0 1em;
+                color: #fff;
+                background-color: #222;
+                background-image: none;
+                cursor: pointer;
+                padding-block: 5px;
+                &::-ms-expand {
+                   display: none;
+                }
+            }
+            .select {
                 position: absolute;
                 right: 0;
                 top: 50%;
                 transform: translateY(-50%);
+                display: flex;
+                border-radius: .25em;
+                overflow: hidden;
+                &::after {
+                content: '\25BC';
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 0;
+                background-color: #444;
+                color: white    ;
+                transition: .25s all ease;
+                pointer-events: none;
+                font-size: 12px;
+                height: 100%;
+                line-height: 2;
+                aspect-ratio: 1/1;
+                text-align: center;
+                padding-block: 5px;
+                }
+                @media screen and (max-width: 500px) {
+                    position: relative;
+                    width: 100%;
+                }
             }
             h2 {
                 font-size: 2.5rem;
                 font-weight: 500;
+                @media screen and (max-width: 768px) {
+                    font-size: 2rem;
+                }
+                @media screen and (max-width: 500px) {
+                    font-size: 2rem;
+                    width: 100%;
+                    margin-bottom: 35px;
+                }
+            }
+            @media screen and (max-width: 500px) {
+                flex-direction: column;
             }
         }
         .products-container {
@@ -316,7 +389,8 @@ export default {
             attributes: [],
             categories: [],
             mobileMenuActive: false,
-            activeFilters: null
+            activeFilters: null,
+            order: 'default'
         }
     },
     mounted() {
@@ -337,8 +411,6 @@ export default {
             this.activeFilters = newArr
             const route = useRoute()
             const router = useRouter()
-            console.log(route)
-            console.log(router)
 
             const first = `?${filter.filterPrefix}=${filter.value}` 
             const whatever = `&${filter.filterPrefix}=${filter.value}`
@@ -355,10 +427,10 @@ export default {
                 if(newUrl.startsWith("/products&")) {
                     newUrl = newUrl.replace("/products&", "/products?")
                     router.replace(newUrl)
+                } else {
+                    router.replace(newUrl)
                 }
             } 
-
-            console.log(newUrl)
 
             if(newUrl == '/products') {
                 router.replace(newUrl)
@@ -401,7 +473,7 @@ export default {
                     sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
                 }
                 const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
-                console.log(currentElement)
+
             } else {
                 const newSize = size
                 const items = Object.values(route.query)[Object.keys(route.query).indexOf(attr.queryPrefix)] || []
@@ -419,7 +491,7 @@ export default {
                     }
                 }
                 const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
-                console.log(currentElement)
+
             } 
         },
         activeMenuMobile: function() {
@@ -433,6 +505,34 @@ export default {
             } else {
                 sessionStorage.setItem("selectedFilters", [])
             }
+        },
+        handleChange: function() {
+            const router = useRouter()
+            const route = useRoute()
+
+            if(this.order == "default") {
+                let newQueryParams = {
+                    ...route.query,
+                    order: undefined,
+                };
+                router.replace({ query: newQueryParams })
+            } else {
+                if(!Object.entries(route.query).length) {
+                    router.push(`?order=${this.order}`)
+                } else {
+                    if(Object.keys(route.query).includes("order")){
+                        let newQueryParams = {
+                            ...route.query,
+                            order: this.order,
+                        };
+                        router.replace({ query: newQueryParams })
+    
+                    } else {
+                        router.push(`${route.fullPath}&order=${this.order}`)
+                    }
+                }
+            }
+
         }
     }
 }
