@@ -168,13 +168,14 @@ export default {
     }
   }
   .newsletter__success {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     background: white;
     z-index: 301;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 100%;
+    max-width:500px;
     height: 300px;
     display: flex;
     flex-direction: column;
