@@ -1,10 +1,6 @@
-<script setup>
-const route = useRoute()
-</script>
-
 <template>
     <Head>
-        <Title>{{ categoryInfo.name ? categoryInfo.name : "" }} - Clothing Store Online</Title>
+        <Title>Products - Clothing Store Online</Title>
         <Meta name="description" content="An Online Clothing Store" />
     </Head>
     <div class="page-container">
@@ -35,7 +31,7 @@ const route = useRoute()
                         </li>    
                     </ul>
                     <ul v-if="attribute.filterType == 'color'" class="filter-attributes--color__list">
-                        <li v-for="color in attribute.colors" :data-size-id="attribute.queryPrefix + color" :key="color.colorName" class="filter-attributes--color__list__item">
+                        <li v-for="color in attribute.colors" :data-size-id="attribute.queryPrefix + color.colorName" :key="color.colorName" class="filter-attributes--color__list__item">
                             <span @click="activeFilter(attribute, color.colorName); activeMenuMobile(); loadSessionStorage()">
                                 <div class="color-sample" :style="{'background-color': color.hex}"></div>
                                 <span class="color-name">{{ color.colorName }}</span>
@@ -263,6 +259,11 @@ const route = useRoute()
                                         text-underline-offset: 2px;
                                     }
                                 }
+                                &.disabled {
+                                    cursor: not-allowed;
+                                    pointer-events: none;
+                                    opacity: 0.7;
+                                }
                             }
                         }
                     }
@@ -293,6 +294,11 @@ const route = useRoute()
                                         text-decoration: underline;
                                         text-underline-offset: 2px;
                                     }
+                                }
+                                &.disabled {
+                                    cursor: not-allowed;
+                                    pointer-events: none;
+                                    opacity: 0.7;
                                 }
                             }
                         }
@@ -404,12 +410,27 @@ export default {
         this.loadSessionStorage()
 
     },
-    beforeUnmount() {
-        sessionStorage.removeItem("selectedFilters")
+    // beforeUnmount() {
+    //     sessionStorage.removeItem("selectedFilters")
+    // },
+    watch: {
+        $route: {
+            handler(to, from) {
+
+                console.log("Route changed: ", to, from)
+            },
+            deep: true
+        }
     },
     methods: {
         removeFilter: function(filter) {
             const items = JSON.parse(sessionStorage.getItem("selectedFilters"))
+            const currentElement = document.querySelector(`li[data-size-id="${filter.filterPrefix}${filter.value}"]`)
+            if(currentElement.classList.contains('disabled')) {
+                currentElement.classList.remove('disabled')
+            } else {
+                currentElement.classList.add('disabled')
+            }
             const newArr = items.map(item => !(item.filterName == filter.filterName && item.value == filter.value) ? item : '').filter(obj => obj)
             sessionStorage.setItem("selectedFilters", JSON.stringify(newArr))
             this.activeFilters = newArr
@@ -473,6 +494,12 @@ export default {
             // this.categoryInfo = infoJson.categories.filter(item => item.slug == this.$route.params.id).pop();
         },
         activeFilter: function(attr, size) {
+            const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
+            if(currentElement.classList.contains('disabled')) {
+                currentElement.classList.remove('disabled')
+            } else {
+                currentElement.classList.add('disabled')
+            }
             const router = useRouter()
             const route = useRoute()
             let storage = sessionStorage.getItem("selectedFilters")
@@ -489,8 +516,6 @@ export default {
                     newSession.push({filterName: attr.filterName, value: size, filterPrefix: attr.queryPrefix})
                     sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
                 }
-                const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
-
             } else {
                 const newSize = size
                 const items = Object.values(route.query)[Object.keys(route.query).indexOf(attr.queryPrefix)] || []
@@ -507,8 +532,6 @@ export default {
                         sessionStorage.setItem("selectedFilters", JSON.stringify(newSession))
                     }
                 }
-                const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)
-
             } 
         },
         activeMenuMobile: function() {
@@ -517,8 +540,8 @@ export default {
         loadSessionStorage: function() {
             let storage = sessionStorage.getItem("selectedFilters")
             if(storage) {
-                let getItems = sessionStorage.getItem("selectedFilters")
-                this.activeFilters = JSON.parse(getItems)
+                let getItems = Array.from(new Set(JSON.parse(sessionStorage.getItem("selectedFilters"))))
+                this.activeFilters = getItems
             } else {
                 sessionStorage.setItem("selectedFilters", [])
             }

@@ -34,7 +34,7 @@
           <nav class="menu-mobile">
             <ul class="menu-mobile__container">
               <li
-                v-for="category in categories"
+                v-for="category in categoriesMenu"
                 :key="category.id"
                 :data-identifier = "category.id"
                 class="menu-mobile__item"
@@ -74,7 +74,7 @@
       <nav class="second-bar__nav-menu">
         <ul class="menu-desktop">
           <li
-            v-for="category in categories"
+            v-for="category in categoriesMenu"
             :key="category.id"
             class="menu-desktop__item"
           >
@@ -198,6 +198,7 @@
         justify-content: space-between;
         &__item {
           position: relative;
+          z-index: 999;
           a {
             cursor: pointer;
             color: black;
@@ -248,6 +249,7 @@
       .cart {
         width: 25px;
         height: 25px;
+        z-index: 999;
         &__icon {
           background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNiAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzJfMikiPgo8bWFzayBpZD0ibWFzazBfMl8yIiBzdHlsZT0ibWFzay10eXBlOmx1bWluYW5jZSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2Ij4KPHBhdGggZD0iTTI2IDBIMFYyNkgyNlYwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzJfMikiPgo8bWFzayBpZD0ibWFzazFfMl8yIiBzdHlsZT0ibWFzay10eXBlOmx1bWluYW5jZSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2Ij4KPHBhdGggZD0iTTI2IDBIMFYyNkgyNlYwWiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2sxXzJfMikiPgo8cGF0aCBkPSJNMjAuMjUgMjAuNUMxOC44NjI1IDIwLjUgMTcuNzUgMjEuNjEyNSAxNy43NSAyM0MxNy43NSAyMy42NjMgMTguMDEzNCAyNC4yOTg5IDE4LjQ4MjIgMjQuNzY3OEMxOC45NTExIDI1LjIzNjYgMTkuNTg3IDI1LjUgMjAuMjUgMjUuNUMyMC45MTMgMjUuNSAyMS41NDg5IDI1LjIzNjYgMjIuMDE3OCAyNC43Njc4QzIyLjQ4NjYgMjQuMjk4OSAyMi43NSAyMy42NjMgMjIuNzUgMjNDMjIuNzUgMjIuMzM3IDIyLjQ4NjYgMjEuNzAxMSAyMi4wMTc4IDIxLjIzMjJDMjEuNTQ4OSAyMC43NjM0IDIwLjkxMyAyMC41IDIwLjI1IDIwLjVaTTAuMjUgMC41VjNIMi43NUw3LjI1IDEyLjQ4NzVMNS41NSAxNS41NUM1LjM2MjUgMTUuOSA1LjI1IDE2LjMxMjUgNS4yNSAxNi43NUM1LjI1IDE3LjQxMyA1LjUxMzM5IDE4LjA0ODkgNS45ODIyMyAxOC41MTc4QzYuNDUxMDcgMTguOTg2NiA3LjA4Njk2IDE5LjI1IDcuNzUgMTkuMjVIMjIuNzVWMTYuNzVIOC4yNzVDOC4xOTIxMiAxNi43NSA4LjExMjYzIDE2LjcxNzEgOC4wNTQwMyAxNi42NTg1QzcuOTk1NDIgMTYuNTk5OSA3Ljk2MjUgMTYuNTIwNCA3Ljk2MjUgMTYuNDM3NUM3Ljk2MjUgMTYuMzc1IDcuOTc1IDE2LjMyNSA4IDE2LjI4NzVMOS4xMjUgMTQuMjVIMTguNDM3NUMxOS4zNzUgMTQuMjUgMjAuMiAxMy43MjUgMjAuNjI1IDEyLjk2MjVMMjUuMSA0Ljg3NUMyNS4xODc1IDQuNjc1IDI1LjI1IDQuNDYyNSAyNS4yNSA0LjI1QzI1LjI1IDMuOTE4NDggMjUuMTE4MyAzLjYwMDU0IDI0Ljg4MzkgMy4zNjYxMkMyNC42NDk1IDMuMTMxNyAyNC4zMzE1IDMgMjQgM0g1LjUxMjVMNC4zMzc1IDAuNU03Ljc1IDIwLjVDNi4zNjI1IDIwLjUgNS4yNSAyMS42MTI1IDUuMjUgMjNDNS4yNSAyMy42NjMgNS41MTMzOSAyNC4yOTg5IDUuOTgyMjMgMjQuNzY3OEM2LjQ1MTA3IDI1LjIzNjYgNy4wODY5NiAyNS41IDcuNzUgMjUuNUM4LjQxMzA0IDI1LjUgOS4wNDg5MyAyNS4yMzY2IDkuNTE3NzcgMjQuNzY3OEM5Ljk4NjYxIDI0LjI5ODkgMTAuMjUgMjMuNjYzIDEwLjI1IDIzQzEwLjI1IDIyLjMzNyA5Ljk4NjYxIDIxLjcwMTEgOS41MTc3NyAyMS4yMzIyQzkuMDQ4OTMgMjAuNzYzNCA4LjQxMzA0IDIwLjUgNy43NSAyMC41WiIgZmlsbD0iIzIyMjIyMiIvPgo8L2c+CjwvZz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8yXzIiPgo8cmVjdCB3aWR0aD0iMjYiIGhlaWdodD0iMjYiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==)
             no-repeat center;
@@ -615,15 +617,16 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   setup() {},
-  props: {
-    categories: Object,
-  },
   data() {
     return {
       isActive: false,
       menuMobile: false,
       menuMobileExtended: false,
+      categoriesMenu: []
     };
+  },
+  mounted() {
+    this.fetchCategoriesMenu('../../api.json')
   },
   methods: {
     toggleCart: function () {
@@ -638,6 +641,11 @@ export default defineComponent({
       nextA?.classList.toggle("active")
       currentElement?.classList.toggle("active")
       // this.menuMobileExtended = !this.menuMobileExtended;
+    },
+    fetchCategoriesMenu: async function (url: any) {
+      const info = await fetch(url);
+      const infoJson = await info.json();
+      this.categoriesMenu = infoJson.categories;
     },
   },
 });

@@ -1,10 +1,10 @@
 <template>
-  <Header :categories="categoriesMenu" />
-  <NuxtPage class="main" />
+  <Header />
+  <NuxtPage/>
   <Footer />
 </template>
 
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -23,7 +23,7 @@ export default {
   }
 }
 
-</script>
+</script> -->
 <style lang="scss">
 NuxtPage {
   padding-top: 119px;
