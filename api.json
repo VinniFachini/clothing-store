@@ -12,12 +12,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -62,12 +60,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -112,12 +108,39 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
+                ]
+            },
+            "reviews": {
+                "productStarsOverall": 4,
+                "reviews": [
+                    {
+                        "stars": 4,
+                        "clientName": "Carlos",
+                        "descriptionTitle": "Amazing!",
+                        "descriptionContent": "The absolute best product I've ever tried! Awesome indeed!"
+                    },
+                    {
+                        "stars": 5,
+                        "clientName": "Carlos",
+                        "descriptionTitle": "Amazing!",
+                        "descriptionContent": "The absolute best product I've ever tried! Awesome indeed!"
+                    },
+                    {
+                        "stars": 3,
+                        "clientName": "Carlos",
+                        "descriptionTitle": "Amazing!",
+                        "descriptionContent": "The absolute best product I've ever tried! Awesome indeed!"
+                    },
+                    {
+                        "stars": 4,
+                        "clientName": "Carlos",
+                        "descriptionTitle": "Amazing!",
+                        "descriptionContent": "The absolute best product I've ever tried! Awesome indeed!"
+                    }
                 ]
             },
             "category": [
@@ -162,12 +185,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -212,12 +233,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -262,12 +281,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -312,12 +329,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -362,12 +377,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -412,12 +425,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -462,12 +473,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -512,12 +521,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -562,12 +569,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -612,12 +617,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -662,12 +665,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -712,12 +713,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
@@ -762,12 +761,10 @@
                 "main": "https://loremflickr.com/400/600?random=1",
                 "mouseOver": "https://loremflickr.com/400/600?random=2",
                 "thumbs": [
+                    "https://loremflickr.com/400/600?random=1",
+                    "https://loremflickr.com/400/600?random=2",
                     "https://loremflickr.com/400/600?random=3",
-                    "https://loremflickr.com/400/600?random=4",
-                    "https://loremflickr.com/400/600?random=5",
-                    "https://loremflickr.com/400/600?random=6",
-                    "https://loremflickr.com/400/600?random=7",
-                    "https://loremflickr.com/400/600?random=8"
+                    "https://loremflickr.com/400/600?random=4"
                 ]
             },
             "category": [
