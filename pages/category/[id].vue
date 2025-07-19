@@ -404,9 +404,9 @@ export default {
         }
     },
     mounted() {
-        this.fetchProducts("../api.json");
-        this.fetchAttributes("../api.json");
-        this.fetchCategoryInfo("../api.json");
+        this.fetchProducts("http://localhost:3001/products");
+        this.fetchAttributes("http://localhost:3001/attributes");
+        this.fetchCategories("http://localhost:3001/categories");
         this.loadSessionStorage()
 
     },
@@ -468,17 +468,17 @@ export default {
         fetchProducts: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            this.products = infoJson.products;
+            this.products = infoJson;
         },
         fetchAttributes: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            this.attributes = infoJson.attributes;
+            this.attributes = infoJson;
         },
         fetchCategoryInfo: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            infoJson.categories.map(item => {
+            infoJson.map(item => {
                 if (item.slug == this.$route.params.id) {
                     this.categoryInfo = item
                 } else {

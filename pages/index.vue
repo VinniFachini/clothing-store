@@ -33,61 +33,56 @@ export default {
     };
   },
   mounted() {
-    this.fetchProducts("../api.json");
-    this.fetchfirstShowcase("../api.json");
-    this.fetchsecondShowcase("../api.json");
-    this.fetchthirdShowcase("../api.json");
-    this.fetchfourthShowcase("../api.json");
-    this.fetchBannerHome("../api.json");
-    this.fetchBannerGrid("../api.json");
-    this.fetchBannerFull("../api.json");
-    this.fetchBannerAboutUs("../api.json")
+    this.fetchfirstShowcase("http://localhost:3001/showcases");
+    this.fetchsecondShowcase("http://localhost:3001/showcases");
+    this.fetchthirdShowcase("http://localhost:3001/showcases");
+    this.fetchfourthShowcase("http://localhost:3001/showcases");
+    this.fetchBannerHome("http://localhost:3001/banners");
+    this.fetchBannerGrid("http://localhost:3001/banners");
+    this.fetchBannerFull("http://localhost:3001/banners");
+    this.fetchBannerAboutUs("http://localhost:3001/banners")
   },
   methods: {
-    fetchProducts: async function (url) {
-      const info = await fetch(url);
-      const infoJson = await info.json();
-      this.products = infoJson.products;
-    },
     fetchfirstShowcase: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.firstShowcase = infoJson.showcases[0];
+      this.firstShowcase = infoJson[0];
     },
     fetchsecondShowcase: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.secondShowcase = infoJson.showcases[1];
+      this.secondShowcase = infoJson[1];
     },
     fetchthirdShowcase: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.thirdShowcase = infoJson.showcases[2];
+      this.thirdShowcase = infoJson[2];
     },
     fetchfourthShowcase: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.fourthShowcase = infoJson.showcases[3];
+      this.fourthShowcase = infoJson[3];
     },
     fetchBannerHome: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.bannerHomeItems = infoJson.banners.bannerHome;
+      console.log("Banner Home: ", infoJson)
+      this.bannerHomeItems = infoJson.bannerHome;
     },
     fetchBannerGrid: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.bannerGridItems = infoJson.banners.bannerGrid;
+      this.bannerGridItems = infoJson.bannerGrid;
     },
     fetchBannerFull: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.bannerFullItems = infoJson.banners.bannerFull;
+      this.bannerFullItems = infoJson.bannerFull;
     },
     fetchBannerAboutUs: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.bannerAboutUs = infoJson.banners.bannerAboutUs;
+      this.bannerAboutUs = infoJson.bannerAboutUs;
     },
   },
 };

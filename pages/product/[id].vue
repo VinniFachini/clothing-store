@@ -266,7 +266,7 @@ export default {
     };
   },
   async mounted() {
-    await this.fetchProductInfo("../api.json");
+    await this.fetchProductInfo("http://localhost:3001/products");
     this.getAllStars();
     this.getReviewNumber();
     this.calculateDiscountPercentage();
@@ -326,8 +326,9 @@ export default {
     fetchProductInfo: async function (url) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      infoJson.products.map((product) => {
+      infoJson.map((product) => {
         if (product.sku == this.$route.params.id) {
+          console.log(product)
           this.productName = product.name;
           this.productImages = [
             product.images.main,

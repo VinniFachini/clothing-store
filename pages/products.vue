@@ -404,9 +404,9 @@ export default {
         }
     },
     mounted() {
-        this.fetchProducts("../api.json");
-        this.fetchAttributes("../api.json");
-        this.fetchCategories("../api.json");
+        this.fetchProducts("http://localhost:3001/products");
+        this.fetchAttributes("http://localhost:3001/attributes");
+        this.fetchCategories("http://localhost:3001/categories");
         this.loadSessionStorage()
 
     },
@@ -468,17 +468,17 @@ export default {
         fetchProducts: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            this.products = infoJson.products;
+            this.products = infoJson;
         },
         fetchAttributes: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            this.attributes = infoJson.attributes;
+            this.attributes = infoJson;
         },
         fetchCategories: async function (url) {
             const info = await fetch(url);
             const infoJson = await info.json();
-            this.categories = infoJson.categories;
+            this.categories = infoJson;
         },
         activeFilter: function(attr, size) {
             const currentElement = document.querySelector(`li[data-size-id="${attr.queryPrefix}${size}"]`)

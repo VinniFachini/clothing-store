@@ -626,7 +626,7 @@ export default defineComponent({
     };
   },
   mounted() {
-    this.fetchCategoriesMenu('../../api.json')
+    this.fetchCategoriesMenu("http://localhost:3001/categories")
   },
   methods: {
     toggleCart: function () {
@@ -645,7 +645,7 @@ export default defineComponent({
     fetchCategoriesMenu: async function (url: any) {
       const info = await fetch(url);
       const infoJson = await info.json();
-      this.categoriesMenu = infoJson.categories;
+      this.categoriesMenu = infoJson;
     },
   },
 });
